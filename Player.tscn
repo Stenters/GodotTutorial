@@ -11,6 +11,8 @@ texture = ExtResource( 2 )
 
 [node name="Area2D" type="Area2D" parent="."]
 editor/display_folded = true
+collision_layer = 51
+collision_mask = 55
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Area2D"]
 polygon = PoolVector2Array( -24.3059, -0.671089, -47.3029, -31.1555, -57.4644, -30.6207, -62.8126, 15.3734, -35.2696, 20.1867, -46.5007, 28.4763, -16.2837, 28.7437, 31.5823, 30.3482, 39.3371, 23.3956, 64.206, 9.49039, 32.9193, -8.15849, 21.1534, -23.4007, 6.71336, -22.8659 )
